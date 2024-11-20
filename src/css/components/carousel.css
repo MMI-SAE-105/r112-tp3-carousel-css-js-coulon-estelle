@@ -1,7 +1,7 @@
 /* Limite la largeur maximale de l'image à 100% de son conteneur - https://developer.mozilla.org/fr/docs/Web/CSS/max-width */
 /* Ajuste la hauteur de l'image automatiquement pour conserver les proportions - https://developer.mozilla.org/fr/docs/Web/CSS/height */
 img {
-  max-width: 100%;
+  width: 20vw;
   height: auto;
 }
 
@@ -69,7 +69,7 @@ Les margin négatifs à gauche et à droite corresponde à l'éespace entre le n
   /* Définit le type de défilement pour accrocher les éléments - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-type */
 
 .carousel__item {
-  flex: 1 0 260px;
+  flex: auto;
   scroll-snap-align: center;
   /* L'élément prend 1 part de l'espace disponible, ne rétrécit pas, et a une largeur de base de 260px - https://developer.mozilla.org/fr/docs/Web/CSS/flex */
   /* Aligne l'élément au centre lors du défilement - https://developer.mozilla.org/fr/docs/Web/CSS/scroll-snap-align */

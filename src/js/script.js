@@ -22,3 +22,10 @@ if (carousel) {
     });
   });
 }
+
+document.addEventListener("DOMContentLoaded", () => {
+    const premierItem = document.querySelector(".carousel__item");
+    const scrollAmount = premierItem.clientWidth;
+    
+    document.querySelector(".carousel").scrollBy(scrollAmount, 0);
+});
